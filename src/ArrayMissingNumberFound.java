@@ -29,7 +29,7 @@ public class ArrayMissingNumberFound {
         int summWithMissingNumber = 0;
 
         for (int j=min; j<=max; j++){ //ищем сумму последовательности от наименьшего до наибольшего числа
-            summWithMissingNumber += j; //вместо цикла можно использовать формулу арифметической прогрессии (max + min) * count / 2, что позволит избежать time complexity O(n^2)
+            summWithMissingNumber += j; //вместо цикла можно использовать формулу арифметической прогрессии (max + min) * count / 2
         }
         return summWithMissingNumber-summ;
     }
